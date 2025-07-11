@@ -1,7 +1,8 @@
-/*Sets custom font collection and assigns them to h1 to h6 heading attributes*/
+/*Sets custom fontsize and assigns them body text*/
 
 html {
 	scroll-behavior: smooth;
+	font-size: 0.625em;
 }
 
 :root {
@@ -16,6 +17,11 @@ html {
 	--font-family-base: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
     --font-family-title: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
 
+	--font-size-small: 1.2rem;
+	--font-size-medium: 1.6rem;
+	--font-size-large: 1.8rem;
+	--font-size-x-large: 2.3rem;
+	--font-size-xx-large: 4.8rem;
 }
 
 
@@ -25,6 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
 	color: var(--text-color);
+	font-size: var(--font-size-medium)
 }
 
 a {
