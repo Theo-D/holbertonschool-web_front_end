@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
 	color: var(--text-color);
 	font-size: var(--font-size-medium);
-	font-size: var(--font-weight-regular);
+	font-weight: var(--font-weight-regular);
 }
 
 a {
